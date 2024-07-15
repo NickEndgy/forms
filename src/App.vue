@@ -5,6 +5,7 @@ import TelegLink from './components/TelegLink.vue'
 
 <template>
  <teleg-link></teleg-link>
+ <!-- <login></login> -->
 </template>
 
 <style scoped>
