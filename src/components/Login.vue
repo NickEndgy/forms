@@ -230,6 +230,7 @@ h1 {
   background: #eae9e9;
   cursor: pointer;
 }
+
 .login {
   font-family: var(--font-family);
   font-weight: 700;
@@ -293,7 +294,7 @@ h1 {
   text-align: center;
   border-radius: 15px;
 }
-@media (max-width: 1245px) {
+@media (max-width: 1260px) {
   .mail img {
     position: absolute;
     top: 550px;
@@ -301,7 +302,7 @@ h1 {
     right: -110px;
   }
 }
-@media (max-width: 1217px) {
+@media (max-width: 1235px) {
   .mail img {
     position: absolute;
     top: 550px;
@@ -309,15 +310,29 @@ h1 {
     right: -70px;
   }
 }
+
+@media (max-width: 1199px) {
+  .mail img {
+    position: absolute;
+    top: 550px;
+    cursor: pointer;
+    right: 30px;
+  }
+}
+
 @media (max-width: 1175px) {
   .img-container {
     display: none;
+  }
+  .a {
+    position: absolute;
+    left: 300px;
   }
   .mail img {
     position: absolute;
     top: 550px;
     cursor: pointer;
-    right: -60px;
+    right: -30px;
   }
   .login-container {
     display: flex;
@@ -342,7 +357,11 @@ h1 {
     position: absolute;
     top: 550px;
     cursor: pointer;
-    right: -20px;
+    right: 50px;
+  }
+  .a {
+    position: absolute;
+    left: 250px;
   }
   .input {
     margin-bottom: 40px;
@@ -385,6 +404,7 @@ h1 {
   }
   .reg {
     font-family: var(--font-family);
+    margin-left: -70px;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
@@ -404,7 +424,7 @@ h1 {
   }
 }
 
-@media (max-width: 567px) {
+/* @media (max-width: 567px) {
   .input {
     margin-bottom: 40px;
     border-radius: 15px;
@@ -452,17 +472,17 @@ h1 {
     font-weight: 700;
     font-size: 18px;
   }
-}
+} */
 @media (max-width: 505px) {
   .all-container {
     background: #fff;
   }
-  .login-container {
+  /* .login-container {
     -webkit-box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
 
     margin-left: 50px;
-  }
+  } */
 }
 </style>
