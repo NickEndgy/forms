@@ -44,7 +44,7 @@ const login = async () => {
     error.value = 'Ошибка при отправке запроса.';
   }
 };
-//hhh
+
 
 
 </script>
@@ -79,8 +79,10 @@ const login = async () => {
       <div class="mail">
         <a href=""><img src="/mail.svg" alt="" /></a>
       </div>
-      <a href="" class="a">Забыли пароль?</a>
-      <div class="errors"><p class="err">{{error}}</p></div>
+      <div class="pass-err">
+        <a href="" class="a">Забыли пароль?</a>
+        <div class="errors"><p class="err">{{error}}</p></div>
+      </div>
     </div>
   </div>
 </template>
@@ -326,7 +328,7 @@ h1 {
   }
   .a {
     position: absolute;
-    left: 300px;
+    left: 50px;
   }
   .mail img {
     position: absolute;
@@ -342,6 +344,12 @@ h1 {
     height: 600px;
     background: #fff;
     position: relative;
+  }
+  .err {
+    width: 1000px;
+    position: absolute;
+    top: 550px;
+    margin-left: -479px
   }
 }
 @media (max-width: 705px) {
